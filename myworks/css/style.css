@@ -1,0 +1,249 @@
+
+h1, h2, h3 {
+    text-align:center;
+}
+
+h1 {
+    font-size:40px;
+    font-family:serif;
+}
+
+h3 {
+    text-decoration-line:underline;
+}
+
+header {
+    position:fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 10px;
+    background-color: rgb(207, 240, 245);
+}
+
+main {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+main img {
+    justify-content: center;
+    width:100%;
+}
+
+footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(207, 240, 245);
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width:50%;
+    max-width:800px;
+    background-color: white;
+    border-spacing: 0;
+    margin:auto;
+}
+
+th {
+    background-color:rgb(204, 251, 255);
+    border: 1px solid;
+}
+
+th, td {
+    padding:5px;
+    border: 1px solid;
+}
+
+ul {
+    width: 90%;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+}
+
+ul img {
+    width: 250;
+    height: 140;
+    list-style: none;
+}
+
+li {
+    line-height:2em;
+    list-style: none;
+    margin: 2px 2px;
+}
+
+.ProfileText {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ProfileLinks {
+    text-align: center;
+}
+
+.ProfileLink {
+    font-size: 20px;
+    display: inline-block;
+    font-weight:bold;
+    color:black;
+    text-decoration:underline;
+}
+
+nav {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+nav p {
+    font-size: 32px;
+    padding: auto;
+    margin:5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.HeaderTop {
+    text-align:left;
+    font-size: 24px;
+    display: inline-block;
+    font-weight:bold;
+    color:black;
+    text-decoration:none;
+}
+
+.button {
+    text-align:center;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0px 10px;
+    font-weight:bold;
+    color:black;
+    text-decoration:underline;
+}
+
+@media screen and (max-width:775px) {
+    header h1 {
+        font-size:20px;
+        font-family:serif;
+    }
+
+    header {
+        position:fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px 10px;
+        background-color: rgb(207, 240, 245);
+    }
+
+    .HeaderTop {
+        text-align:left;
+        font-size: 20px;
+        display: inline-block;
+        font-weight:bold;
+        color:black;
+        text-decoration:none;
+    }
+
+    .button {
+        text-align:center;
+        font-size: 12px;
+        display: inline-block;
+        margin: 0 1px;
+        padding: 0px 1px;
+        font-weight:bold;
+        color:black;
+        text-decoration:underline;
+    }
+}
+
+.footerButtons {
+    margin: auto;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.footerButton {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 5px;
+    font-weight:bold;
+    color:black;
+    text-decoration:none;
+}
+
+.highlight {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#PortfolioList {
+    display: flex;
+    background-color: rgb(207, 240, 245);
+}
+
+.Column {
+    padding-top: 1%;
+}
+
+.Contact {
+    text-align: center;
+    padding: 1% 5%;
+}
+
+#contact {
+    width: 90%;
+    margin: auto;
+}
+
+.ContactInfo {
+    padding-top: 3px;
+}
+
+.Update {
+    text-align: center;
+}
+
+.sp-tel{
+    display:none;
+}
+
+@media screen and (max-width:775px) {
+    .sp-tel {
+        display:block;
+    }
+}
+
+.clicked {
+    background-color: #808080;
+}
+
+#modal {
+    z-index: 100;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#modal-content {
+    z-index: 100;
+    background-color: white;
+    margin:20% auto;
+    padding:50px;
+    width:50%;
+}
